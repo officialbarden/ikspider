@@ -1,0 +1,29 @@
+{
+    "condition": "minecraft:value_check",
+    "value": {
+        "type": "minecraft:score",
+        "target": {
+            "type": "minecraft:context",
+            "target": "this"
+        },
+        "score": "ik.spider.armature_ID"
+    },
+    "range": {
+        "min": {
+            "type": "minecraft:score",
+            "target": {
+                "type": "minecraft:fixed",
+                "name": "#ID"
+            },
+            "score": "ik.spider.armature_ID"
+        },
+        "max": {
+            "type": "minecraft:score",
+            "target": {
+                "type": "minecraft:fixed",
+                "name": "#ID"
+            },
+            "score": "ik.spider.armature_ID"
+        }
+    }
+}
